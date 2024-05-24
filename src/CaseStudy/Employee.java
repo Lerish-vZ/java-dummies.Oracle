@@ -47,6 +47,6 @@ public class Employee {
     }
     
     public String toString(){
-        return "\n\tName: " + getEmpName() + "\n\tID: " + getEmpId() + "\n\tSalary: " + getEmpSalary();                
+        return "\tName: " + getEmpName() + "\n\tID: " + getEmpId() + "\n\tSalary: " + getEmpSalary() + "\n";                
     }
 }
