@@ -9,5 +9,7 @@ package CaseStudy;
  * @author lerishav
  */
 public class Department {
+    private int[] employee = new int[10];
     
+   
 }
