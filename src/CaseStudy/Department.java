@@ -64,4 +64,11 @@ public class Department {
         }
         return totalSalary;                
     }
+    
+    public double getAverageSalary() {
+        if (lastAddedEmployeeIndex > -1){
+            return getTotalSalary() / (lastAddedEmployeeIndex+1);
+        }
+        return 0.0;
+    }
 }
