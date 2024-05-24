@@ -20,6 +20,8 @@ public class Employee {
         this.empSalary = empSalary;
     }
 
+    // Getter and setter methods for all variables 
+    
     public int getEmpId() {
         return empId;
     }
@@ -42,5 +44,9 @@ public class Employee {
 
     public void setEmpSalary(double empSalary) {
         this.empSalary = empSalary;
+    }
+    
+    public String toString(){
+        
     }
 }
