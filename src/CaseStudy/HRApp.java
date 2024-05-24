@@ -32,10 +32,9 @@ public class HRApp {
         Employee[] emps = dept.getEmployees();
         
         for(Employee emp: emps){
-            System.out.println(emp.toString());
-            
-            System.out.println("Total Salary: " + dept.getTotalSalary());
+            System.out.println(emp.toString());            
         }
+        System.out.println("Total Salary: " + dept.getTotalSalary());
     }
     
 }
