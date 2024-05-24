@@ -17,8 +17,11 @@ public class HRApp {
         System.out.println("HRApp Starts");
         
         
-        Employee emp = new Employee(887, "Susan", 15000.00);
-        System.out.println(emp.toString());
+        Employee emp1 = new Employee(887, "Susan", 15000.00);
+        System.out.println(emp1.toString());
+        
+        Employee emp2 = new Employee(23, "John", 17000.00);
+        System.out.println(emp2.toString());
     }
     
 }
