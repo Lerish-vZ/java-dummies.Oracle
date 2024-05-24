@@ -12,7 +12,9 @@ public class Department {
     private String name;
     
     private Employee[] emps = new Employee[10];
-
+    
+    private int lastAddedEmployeeIndex = -1;
+    
     public Department(String name){
         this.name = name;
     }
