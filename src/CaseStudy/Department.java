@@ -50,7 +50,10 @@ public class Department {
     
     public Employee getEmployeeByID(int empId){
         for (Employee emp: emps){
-            
+            if(emp.getEmpId() == (empId)){
+                return emp;
+            }
         }
+        return null;
     }
 }
