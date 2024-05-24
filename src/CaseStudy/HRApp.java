@@ -16,6 +16,7 @@ public class HRApp {
     public static void main(String[] args) {
         System.out.println("HRApp Starts");
         
+        System.out.println("--- Employees Information ---");
         
         Employee emp1 = new Employee(887, "Susan", 15000.00);
         System.out.println(emp1.toString());
