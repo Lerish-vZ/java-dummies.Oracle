@@ -47,6 +47,7 @@ public class Employee {
     }
     
     public String toString(){
-        
+        return ("Employee information: \nEmployee ID: " + empId 
+                + "Name: " + empName + "\nSalary: " + empSalary);                
     }
 }
