@@ -35,6 +35,16 @@ public class Department {
         }
     }
     
-    public Employee[]
-   
+    public Employee[] getEmployees(){
+        Employee[] actualEmps = new Employee[lastAddedEmployeeIndex+1];
+        
+        for(int i = 0; i < actualEmps.length; i++){
+            actualEmps[i] = emps[i];
+        }
+        return actualEmps;
+    }
+    
+    public int getEmployeeCount(){
+        return lastAddedEmployeeIndex+1;
+    }
 }
