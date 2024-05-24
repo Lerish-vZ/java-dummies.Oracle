@@ -9,22 +9,22 @@ package CaseStudy;
  * @author lerishav
  */
 public class Department {
-    private String name;
+    private String deptName;
     
     private Employee[] emps = new Employee[10];
     
     private int lastAddedEmployeeIndex = -1;
     
-    public Department(String name){
-        this.name = name;
+    public Department(String depName){
+        this.deptName = depName;
     }
     
     public String getName() {
-        return name;
+        return deptName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String depName) {
+        this.deptName = depName;
     }
     
     public void addEmp(Employee anEmp){
@@ -34,5 +34,7 @@ public class Department {
             emps[lastAddedEmployeeIndex] = anEmp;
         }
     }
+    
+    public Employee[]
    
 }
