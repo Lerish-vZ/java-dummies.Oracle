@@ -47,4 +47,10 @@ public class Department {
     public int getEmployeeCount(){
         return lastAddedEmployeeIndex+1;
     }
+    
+    public Employee getEmployeeByID(int empId){
+        for (Employee emp: emps){
+            
+        }
+    }
 }
