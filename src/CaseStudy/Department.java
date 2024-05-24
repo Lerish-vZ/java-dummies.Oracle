@@ -71,4 +71,8 @@ public class Department {
         }
         return 0.0;
     }
+    
+    public String toString(){
+        return deptName;
+    }
 }
