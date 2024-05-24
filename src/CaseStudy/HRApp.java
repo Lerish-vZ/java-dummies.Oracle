@@ -14,7 +14,7 @@ public class HRApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("HR App Starts");
+        System.out.println("HRApp Starts");
     }
     
 }
