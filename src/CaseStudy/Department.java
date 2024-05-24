@@ -27,5 +27,12 @@ public class Department {
         this.name = name;
     }
     
+    public void addEmp(Employee anEmp){
+        
+        if(lastAddedEmployeeIndex < emps.length){
+            lastAddedEmployeeIndex++; 
+            emps[lastAddedEmployeeIndex] = anEmp;
+        }
+    }
    
 }
