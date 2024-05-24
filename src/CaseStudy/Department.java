@@ -9,7 +9,17 @@ package CaseStudy;
  * @author lerishav
  */
 public class Department {
-    private int[] employee = new int[10];
+    private String name;
+    
+    private Employee[] emps = new Employee[10];
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
     
    
 }
