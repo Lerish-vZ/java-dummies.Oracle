@@ -23,6 +23,11 @@ public class HRApp {
         
         Employee emp2 = new Employee(23, "John", 17000.00);
         System.out.println(emp2.toString());
+        
+        Department dept = new Department("Education");
+        
+        dept.addEmp(emp1);
+        dept.addEmp(emp2);
     }
     
 }
