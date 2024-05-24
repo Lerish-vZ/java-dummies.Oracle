@@ -27,6 +27,7 @@ public class HRApp {
         
         dept.addEmp(emp1);
         dept.addEmp(emp2);
+        dept.addEmp(new Employee(258, "Mike", 20000));
         
         Employee[] emps = dept.getEmployees();
         
