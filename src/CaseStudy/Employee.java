@@ -14,7 +14,7 @@ public class Employee {
     private String empName;
     private double empSalary;
 
-    public Employee(int empId, String empName, double empSalary) {
+    public Employee(int empId, String empName, double empSalary) { // Intialized fields with constructor
         this.empId = empId;
         this.empName = empName;
         this.empSalary = empSalary;
